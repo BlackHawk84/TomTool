@@ -1,0 +1,7 @@
+[Desktop Entry]
+Enconding=UTF-8
+Type=Application
+Name=TomTool
+Icon=/home/uprestini/Documents/Projects/TomTool/WLicon.png
+Exec=bash /home/uprestini/Document/Projects/TomTool/tomtool.sh
+Name[en_US]=TomTool
