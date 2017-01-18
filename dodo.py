@@ -18,15 +18,14 @@ DOIT_CONFIG = {
 
 def task_01_version():
     def write_file():
-        """
+
         if "TOMTOOL_VERSION" not in os.environ:
             try:
                 version, _, _ = Copan.System.Git.get_git_build_number(".")
             except Exception:
                 version = None
         else:
-        """
-        version = os.environ["TOMTOOL_VERSION"]
+            version = os.environ["TOMTOOL_VERSION"]
 
         if version:
             with open('data/version', 'wb') as f:
